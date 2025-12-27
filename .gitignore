@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Packer
+**/packer_cache/
+*.auto.pkrvars.hcl
+
+# Local build artifacts
+**/assets/
+**/dist/
+**/build/
+**/output-*/
+
+# Logs
+packer.log
+*.log
+
+# Editor/OS junk
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.env
+**/packer_cache/
+*.auto.pkrvars.hcl
